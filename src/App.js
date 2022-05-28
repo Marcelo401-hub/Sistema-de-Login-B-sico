@@ -1,13 +1,12 @@
-import LoginScreen from "./Pages/LoginScreen";
 import './App.css';
-import HomeScreen from "./Pages/HomeScreen";
 
+import AppRoutes from "./AppRoutes";
 
 function App() {
   return (
     <div className="App">
       
-       <LoginScreen/>
+     <AppRoutes/>
       
     </div>
   );
